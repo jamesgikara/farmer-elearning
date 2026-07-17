@@ -1,0 +1,29 @@
+# Node modules
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders
+dist/
+android/app/build/
+ios/build/
+*.keystore
+
+# Android Gradle cache
+.gradle/
+**/.gradle/
+
+# Android build folders
+**/build/
+
+# Expo
+.expo/
+.expo-shared/
