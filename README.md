@@ -1,8 +1,23 @@
-# 🌱 Mobile E-Learning Platform for Small-Scale Farmers
+#  Mobile E-Learning Platform for Small-Scale Farmers
 
 **Author:** Gikara James Ng'ang'a | Reg No. 668886  
-**Unit:** APT3065VA — Final Class Project | USIU-Africa  
+**Unit:** APT4900 — Final Class Project | USIU-Africa  
 **GitHub:** https://github.com/jngikara/mobile-elearning-farmers
+
+##  Live Demo
+
+- **Admin Dashboard:** https://farmer-elearning.vercel.app
+- **Backend API:** https://farmer-elearning.onrender.com/api/health
+- **Database:** Hosted on Railway (MySQL)
+
+**Demo credentials:**
+| Role | Email | Password |
+|------|-------|----------|
+| Admin | admin@farmerlearn.ke | Admin@1234 |
+| Officer | officer@farmerlearn.ke | Officer@1234 |
+| Farmer | farmer@farmerlearn.ke | Farmer@1234 |
+
+> Note: the backend is on Render's free tier, so the first request after inactivity may take 30–60 seconds to wake up.
 
 ---
 
