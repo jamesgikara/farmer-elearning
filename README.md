@@ -10,6 +10,9 @@
 - **Backend API:** https://farmer-elearning.onrender.com/api/health
 - **Database:** Hosted on Railway (MySQL)
 
+- **Mobile App APK:** [Download here](https://drive.google.com/file/d/1wj5WvHyPDlHdsYO-UE6BcVPTP2ueMMCz/view?usp=sharing)
+
+
 **Demo credentials:**
 | Role | Email | Password |
 |------|-------|----------|
