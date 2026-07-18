@@ -6,7 +6,7 @@ import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const BASE_URL = __DEV__
   ? 'http://10.0.2.2:5000/api'   // Android emulator → host machine
-  : 'https://your-production-api.railway.app/api';
+  : 'https://farmer-elearning.onrender.com/api';
 
 const api = axios.create({ baseURL: BASE_URL, timeout: 15000 });
 

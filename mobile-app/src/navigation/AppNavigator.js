@@ -72,6 +72,7 @@ function AdminTabs() {
             Modules:   'book-edit-outline',
             Users:     'account-group-outline',
             Upload:    'cloud-upload-outline',
+            Profile:   'account-circle-outline',
           };
           return <Icon name={icons[route.name] || 'circle'} size={size} color={color} />;
         },
@@ -81,6 +82,7 @@ function AdminTabs() {
       <Tab.Screen name="Modules"   component={ManageModulesScreen} />
       <Tab.Screen name="Users"     component={ManageUsersScreen}   options={{ tabBarBadge: undefined }} />
       <Tab.Screen name="Upload"    component={UploadModuleScreen}  />
+      <Tab.Screen name="Profile"   component={ProfileScreen} />
     </Tab.Navigator>
   );
 }
