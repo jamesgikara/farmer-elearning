@@ -1,9 +1,4 @@
--- =====================================================
--- Mobile E-Learning Platform for Small-Scale Farmers
--- Database Schema — MySQL 8.0 (3NF Normalized)
--- Author: Gikara James Ng'ang'a | Reg: 668886
--- =====================================================
-
+// =====================================================
 CREATE DATABASE IF NOT EXISTS farmer_elearning
   CHARACTER SET utf8mb4
   COLLATE utf8mb4_unicode_ci;
