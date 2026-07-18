@@ -33,6 +33,7 @@ app.use('/api/downloads',  require('./routes/downloads'));
 app.use('/api/feedback',   require('./routes/feedback'));
 app.use('/api/users',      require('./routes/users'));
 app.use('/api/reports',    require('./routes/reports'));
+app.use('/api/assistant',  require('./routes/assistant'));
 
 // ── Health check ────────────────────────────────────
 app.get('/api/health', (req, res) =>

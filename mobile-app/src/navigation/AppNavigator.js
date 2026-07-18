@@ -14,6 +14,7 @@ import LibraryScreen  from '../screens/LibraryScreen';
 import ModuleScreen   from '../screens/ModuleScreen';
 import ProgressScreen from '../screens/ProgressScreen';
 import ProfileScreen  from '../screens/ProfileScreen';
+import AskAIScreen from '../screens/AskAIScreen';
 
 // Admin screens
 import AdminHomeScreen    from '../screens/admin/AdminHomeScreen';
@@ -42,6 +43,7 @@ function FarmerTabs() {
           const icons = {
             Home:     'home-outline',
             Library:  'book-open-outline',
+            AskAI:    'robot-happy-outline',
             Progress: 'chart-line',
             Profile:  'account-circle-outline',
           };
@@ -51,6 +53,7 @@ function FarmerTabs() {
     >
       <Tab.Screen name="Home"     component={HomeScreen}     />
       <Tab.Screen name="Library"  component={LibraryScreen}  />
+      <Tab.Screen name="AskAI"    component={AskAIScreen}    options={{ title: 'Ask AI' }} />
       <Tab.Screen name="Progress" component={ProgressScreen} />
       <Tab.Screen name="Profile"  component={ProfileScreen}  />
     </Tab.Navigator>
